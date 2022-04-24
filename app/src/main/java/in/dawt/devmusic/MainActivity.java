@@ -21,40 +21,70 @@ public class MainActivity extends AppCompatActivity {
 
 
     Song[] songs = {
+
         new Song(
-            "In Da Getto",
-                new String[]{"J Balvin", "Skrillex"},
-                R.drawable.in_da_getto,
-                R.raw.in_da_getto
+                "Oo Antava",
+                new String[]{"Indravathi Chauhan", "Devi Sri Prasad"},
+                R.drawable.oo_anatava,
+                R.raw.oo_antava
+        ),
+
+        new Song(
+                "Srivalli",
+                new String[]{"Sid Sriram", "Devi Sri Prasad"},
+                R.drawable.srivalli,
+                R.raw.srivalli
+        ),
+
+        new Song(
+                "Saami Saami",
+                new String[]{"Mounika Yadav", "Devi Sri Prasad"},
+                R.drawable.saami_saami,
+                R.raw.saami_saami
+        ),
+
+        new Song(
+                "Love Nwanti",
+                new String[]{"CKay"},
+                R.drawable.love_nwanti,
+                R.raw.love_nwanti
+        ),
+
+        new Song(
+                "Memories",
+                new String[]{"Maroon 5"},
+                R.drawable.memories,
+                R.raw.memories
+        ),
+
+        new Song(
+                "Bijlee",
+                new String[]{"Hardy Sandhu"},
+                R.drawable.bijlee,
+                R.raw.bijlee
+        ),
+
+        new Song(
+                "Jugnu",
+                new String[]{"Badshah"},
+                R.drawable.jugnu,
+                R.raw.jugnu
+        ),
+
+        new Song(
+                "Cheap Thrills",
+                new String[]{"Sia"},
+                R.drawable.cheap_thrills,
+                R.raw.cheap_thrills
         ),
 
         new Song(
                 "Manike Mage Hithe",
-                new String[]{"Yohani De Silva", "Satheesan"},
+                new String[]{"Yohani de Silva", "Satheeshan", "Chamath Sangeeth"},
                 R.drawable.manike_mage_hithe,
                 R.raw.manike_mage_hithe
-        ),
-
-        new Song(
-                "Awidan Yanawa",
-                new String[]{"Yohani De Silva", "Funky Dirt"},
-                R.drawable.awidan_yanawa,
-                R.raw.awidan_yanawa
-        ),
-
-        new Song(
-                "Temperature",
-                new String[]{"Sean Paul"},
-                R.drawable.temperature,
-                R.raw.temperature
-        ),
-
-        new Song(
-                "On and On",
-                new String[]{"Cartoon", "Daniel Levi"},
-                R.drawable.on_and_on,
-                R.raw.on_and_on
         )
+
     };
 
 
