@@ -23,6 +23,13 @@ public class MainActivity extends AppCompatActivity {
     Song[] songs = {
 
         new Song(
+                "Its My Life",
+                new String[]{"Sandaru Sathsara"},
+                R.drawable.its_my_life,
+                R.raw.its_my_life
+        ),
+
+        new Song(
                 "Oo Antava",
                 new String[]{"Indravathi Chauhan", "Devi Sri Prasad"},
                 R.drawable.oo_anatava,
@@ -135,11 +142,14 @@ public class MainActivity extends AppCompatActivity {
 
     protected void setAppState() {
 
+        // set the app title
+        setTitle("DevMusic (" + songs.length + " songs)");
+
         // set poster
         poster.setImageResource(songs[currentSongIndex].posterImage);
 
         // set title and singers
-        songTitleView.setText(songs[currentSongIndex].title);
+        songTitleView.setText(currentSongIndex+1 + ". " + songs[currentSongIndex].title);
         singersView.setText(songs[currentSongIndex].getSingersAsString());
 
         // set media player
